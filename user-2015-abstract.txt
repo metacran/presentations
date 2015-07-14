@@ -1,0 +1,21 @@
+
+CRAN is serving us well as the main point of distributing
+R packages, and has been one of the main reasong behind
+the success of R.
+
+METACRAN is an experiment to provide additional services
+on top of the CRAN infrastructure:
+ - A searchable code mirror, with diffs between package
+   versions, and the ability to create personalized versions
+   of R packages.
+ - A database and API of CRAN metadata.
+ - A package search engine and web site for package discovery.
+ - A package manager.
+ - A continuous integration wrapper to build and check
+   R packages with various R versions.
+ - A database and API of CRAN package downloads
+   from the cloud CRAN mirror.
+In this presentation I briefly introduce these services.
+
+Note that METACRAN is not a CRAN project, and it is developed and
+maintained independently of CRAN.
